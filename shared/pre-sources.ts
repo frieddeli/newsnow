@@ -300,6 +300,7 @@ export const originSources = {
   },
   "producthunt": {
     name: "Product Hunt",
+    disable: true,
     color: "red",
     column: "tech",
     type: "hottest",
