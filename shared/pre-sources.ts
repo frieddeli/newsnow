@@ -389,6 +389,7 @@ export const originSources = {
   },
   "cncf": {
     name: "CNCF",
+    disable: true,
     color: "sky",
     column: "tech",
     home: "https://www.cncf.io/blog",
@@ -396,6 +397,7 @@ export const originSources = {
   },
   "awsnew": {
     name: "AWS What's New",
+    disable: true,
     color: "amber",
     column: "tech",
     home: "https://aws.amazon.com/new",
@@ -403,6 +405,7 @@ export const originSources = {
   },
   "gcloud": {
     name: "Google Cloud Blog",
+    disable: true,
     color: "green",
     column: "tech",
     home: "https://cloud.google.com/blog",
