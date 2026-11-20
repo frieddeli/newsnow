@@ -15,6 +15,7 @@ const Time = {
 export const originSources = {
   "v2ex": {
     name: "V2EX",
+    disable: true,
     color: "slate",
     home: "https://v2ex.com/",
     sub: {
@@ -54,6 +55,7 @@ export const originSources = {
   },
   "coolapk": {
     name: "酷安",
+    disable: true,
     type: "hottest",
     column: "tech",
     color: "green",
@@ -141,6 +143,7 @@ export const originSources = {
   },
   "aihot": {
     name: "AIHOT",
+    disable: true,
     type: "realtime",
     column: "tech",
     color: "blue",
@@ -166,6 +169,7 @@ export const originSources = {
   },
   "ithome": {
     name: "IT之家",
+    disable: true,
     color: "red",
     column: "tech",
     type: "realtime",
@@ -198,6 +202,7 @@ export const originSources = {
   },
   "pcbeta": {
     name: "远景论坛",
+    disable: true,
     color: "blue",
     column: "tech",
     home: "https://bbs.pcbeta.com",
@@ -280,6 +285,7 @@ export const originSources = {
   },
   "solidot": {
     name: "Solidot",
+    disable: true,
     color: "teal",
     column: "tech",
     home: "https://solidot.org",
@@ -460,6 +466,7 @@ export const originSources = {
   },
   "kaopu": {
     name: "靠谱新闻",
+    disable: true,
     column: "world",
     color: "gray",
     interval: Time.Common,
@@ -484,6 +491,7 @@ export const originSources = {
   },
   "linuxdo": {
     name: "LINUX DO",
+    disable: true,
     column: "tech",
     color: "slate",
     home: "https://linux.do/",
@@ -503,6 +511,7 @@ export const originSources = {
   },
   "ghxi": {
     name: "果核剥壳",
+    disable: true,
     column: "china",
     color: "yellow",
     home: "https://www.ghxi.com/",
@@ -527,6 +536,7 @@ export const originSources = {
   },
   "sspai": {
     name: "少数派",
+    disable: true,
     column: "tech",
     color: "red",
     type: "hottest",
@@ -534,6 +544,7 @@ export const originSources = {
   },
   "juejin": {
     name: "稀土掘金",
+    disable: true,
     column: "tech",
     color: "blue",
     type: "hottest",
@@ -550,6 +561,7 @@ export const originSources = {
   },
   "chongbuluo": {
     name: "虫部落",
+    disable: true,
     column: "china",
     color: "green",
     home: "https://www.chongbuluo.com",
@@ -601,6 +613,7 @@ export const originSources = {
   },
   "freebuf": {
     name: "Freebuf",
+    disable: true,
     column: "china",
     title: "网络安全",
     color: "green",

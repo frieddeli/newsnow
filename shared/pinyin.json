@@ -1,12 +1,6 @@
 {
-  "v2ex-share": "V2EX-zuixinfenxiang",
-  "coolapk": "kuan-jinrizuire",
   "36kr-quick": "36ke-kuaixun",
   "36kr-renqi": "36ke-renqibang",
-  "aihot": "AIHOT",
-  "ithome": "ITzhijia",
-  "pcbeta-windows11": "yuanjingluntan-Win11",
-  "solidot": "Solidot",
   "hackernews": "Hacker News",
   "producthunt": "Product Hunt",
   "github-trending-today": "Github-Today",
@@ -30,11 +24,5 @@
   "arstechnica": "Ars Technica",
   "bilibili-hot-video": "bilibili-remenshipin",
   "bilibili-ranking": "bilibili-paixingbang",
-  "kaopu": "kaopuxinwen",
-  "sspai": "shaoshupai",
-  "juejin": "xitujuejin",
-  "chongbuluo-latest": "chongbuluo-zuixin",
-  "chongbuluo-hot": "chongbuluo-zuire",
-  "steam": "Steam-zaixianrenshu",
-  "freebuf": "Freebuf-wangluoanquan"
+  "steam": "Steam-zaixianrenshu"
 }

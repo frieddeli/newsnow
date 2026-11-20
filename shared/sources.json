@@ -1,30 +1,4 @@
 {
-  "v2ex": {
-    "redirect": "v2ex-share",
-    "name": "V2EX",
-    "column": "tech",
-    "home": "https://v2ex.com/",
-    "color": "slate",
-    "interval": 600000,
-    "title": "最新分享"
-  },
-  "v2ex-share": {
-    "name": "V2EX",
-    "column": "tech",
-    "home": "https://v2ex.com/",
-    "color": "slate",
-    "interval": 600000,
-    "title": "最新分享"
-  },
-  "coolapk": {
-    "title": "今日最热",
-    "name": "酷安",
-    "type": "hottest",
-    "column": "tech",
-    "home": "https://coolapk.com",
-    "color": "green",
-    "interval": 600000
-  },
   "36kr": {
     "redirect": "36kr-quick",
     "name": "36氪",
@@ -55,48 +29,6 @@
     "color": "blue",
     "interval": 600000,
     "title": "人气榜"
-  },
-  "aihot": {
-    "name": "AIHOT",
-    "type": "realtime",
-    "column": "tech",
-    "home": "https://aihot.news/all",
-    "color": "blue",
-    "interval": 300000
-  },
-  "ithome": {
-    "name": "IT之家",
-    "type": "realtime",
-    "column": "tech",
-    "home": "https://www.ithome.com",
-    "color": "red",
-    "interval": 600000
-  },
-  "pcbeta": {
-    "redirect": "pcbeta-windows11",
-    "name": "远景论坛",
-    "type": "realtime",
-    "column": "tech",
-    "home": "https://bbs.pcbeta.com",
-    "color": "blue",
-    "interval": 300000,
-    "title": "Win11"
-  },
-  "pcbeta-windows11": {
-    "name": "远景论坛",
-    "type": "realtime",
-    "column": "tech",
-    "home": "https://bbs.pcbeta.com",
-    "color": "blue",
-    "interval": 300000,
-    "title": "Win11"
-  },
-  "solidot": {
-    "name": "Solidot",
-    "column": "tech",
-    "home": "https://solidot.org",
-    "color": "teal",
-    "interval": 3600000
   },
   "hackernews": {
     "name": "Hacker News",
@@ -293,56 +225,6 @@
     "interval": 1800000,
     "title": "排行榜"
   },
-  "kaopu": {
-    "name": "靠谱新闻",
-    "desc": "不一定靠谱，多看多思考",
-    "column": "world",
-    "home": "https://kaopu.news/",
-    "color": "gray",
-    "interval": 1800000
-  },
-  "sspai": {
-    "name": "少数派",
-    "type": "hottest",
-    "column": "tech",
-    "home": "https://sspai.com",
-    "color": "red",
-    "interval": 600000
-  },
-  "juejin": {
-    "name": "稀土掘金",
-    "type": "hottest",
-    "column": "tech",
-    "home": "https://juejin.cn",
-    "color": "blue",
-    "interval": 600000
-  },
-  "chongbuluo": {
-    "redirect": "chongbuluo-latest",
-    "name": "虫部落",
-    "column": "china",
-    "home": "https://www.chongbuluo.com/forum.php?mod=guide&view=newthread",
-    "color": "green",
-    "interval": 1800000,
-    "title": "最新"
-  },
-  "chongbuluo-latest": {
-    "name": "虫部落",
-    "column": "china",
-    "home": "https://www.chongbuluo.com/forum.php?mod=guide&view=newthread",
-    "color": "green",
-    "interval": 1800000,
-    "title": "最新"
-  },
-  "chongbuluo-hot": {
-    "name": "虫部落",
-    "type": "hottest",
-    "column": "china",
-    "home": "https://www.chongbuluo.com/forum.php?mod=guide&view=hot",
-    "color": "green",
-    "interval": 1800000,
-    "title": "最热"
-  },
   "steam": {
     "title": "在线人数",
     "name": "Steam",
@@ -350,15 +232,6 @@
     "column": "world",
     "home": "https://store.steampowered.com",
     "color": "blue",
-    "interval": 600000
-  },
-  "freebuf": {
-    "title": "网络安全",
-    "name": "Freebuf",
-    "type": "hottest",
-    "column": "china",
-    "home": "https://www.freebuf.com/",
-    "color": "green",
     "interval": 600000
   }
 }
