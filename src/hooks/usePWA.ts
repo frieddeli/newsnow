@@ -11,17 +11,17 @@ export function usePWA() {
     }
     return subscribePwaUpdateState((state) => {
       if (state === "ready") {
-        toaster("有更新，5 秒后自动更新", {
+        toaster("Update available. Updating in 5 seconds", {
           action: {
-            label: "立刻更新",
+            label: "Update now",
             onClick: update,
           },
           onDismiss: update,
         })
       } else if (state === "successful") {
-        toaster("更新成功，赶快体验吧", {
+        toaster("Updated successfully", {
           action: {
-            label: "查看更新",
+            label: "View changes",
             onClick: () => {
               window.open(`${Homepage}/releases/tag/v${Version}`)
             },
