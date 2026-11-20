@@ -26,6 +26,7 @@ export const originSources = {
   },
   "zhihu": {
     name: "知乎",
+    disable: true,
     type: "hottest",
     column: "china",
     color: "blue",
@@ -33,6 +34,7 @@ export const originSources = {
   },
   "weibo": {
     name: "微博",
+    disable: true,
     title: "实时热搜",
     type: "hottest",
     column: "china",
@@ -42,6 +44,7 @@ export const originSources = {
   },
   "zaobao": {
     name: "联合早报",
+    disable: true,
     interval: Time.Common,
     type: "realtime",
     column: "world",
@@ -59,6 +62,7 @@ export const originSources = {
   },
   "mktnews": {
     name: "MKTNews",
+    disable: true,
     column: "finance",
     home: "https://mktnews.net",
     color: "indigo",
@@ -71,6 +75,7 @@ export const originSources = {
   },
   "wallstreetcn": {
     name: "华尔街见闻",
+    disable: true,
     color: "blue",
     column: "finance",
     home: "https://wallstreetcn.com/",
@@ -110,6 +115,7 @@ export const originSources = {
   },
   "douyin": {
     name: "抖音",
+    disable: true,
     type: "hottest",
     column: "china",
     color: "gray",
@@ -117,6 +123,7 @@ export const originSources = {
   },
   "hupu": {
     name: "虎扑",
+    disable: true,
     home: "https://hupu.com",
     column: "sports",
     title: "主干道热帖",
@@ -125,6 +132,7 @@ export const originSources = {
   },
   "dongqiudi": {
     name: "懂球帝",
+    disable: true,
     title: "头条",
     type: "realtime",
     column: "sports",
@@ -141,6 +149,7 @@ export const originSources = {
   },
   "tieba": {
     name: "百度贴吧",
+    disable: true,
     title: "热议",
     column: "china",
     type: "hottest",
@@ -149,6 +158,7 @@ export const originSources = {
   },
   "toutiao": {
     name: "今日头条",
+    disable: true,
     type: "hottest",
     column: "china",
     color: "red",
@@ -163,6 +173,7 @@ export const originSources = {
   },
   "thepaper": {
     name: "澎湃新闻",
+    disable: true,
     interval: Time.Common,
     type: "hottest",
     column: "china",
@@ -172,12 +183,14 @@ export const originSources = {
   },
   "sputniknewscn": {
     name: "卫星通讯社",
+    disable: true,
     color: "orange",
     column: "world",
     home: "https://sputniknews.cn",
   },
   "cankaoxiaoxi": {
     name: "参考消息",
+    disable: true,
     color: "red",
     column: "world",
     interval: Time.Common,
@@ -204,6 +217,7 @@ export const originSources = {
   },
   "cls": {
     name: "财联社",
+    disable: true,
     color: "red",
     column: "finance",
     home: "https://www.cls.cn",
@@ -224,6 +238,7 @@ export const originSources = {
   },
   "xueqiu": {
     name: "雪球",
+    disable: true,
     color: "blue",
     home: "https://xueqiu.com",
     column: "finance",
@@ -237,6 +252,7 @@ export const originSources = {
   },
   "gelonghui": {
     name: "格隆汇",
+    disable: true,
     color: "blue",
     title: "事件",
     column: "finance",
@@ -246,6 +262,7 @@ export const originSources = {
   },
   "fastbull": {
     name: "法布财经",
+    disable: true,
     color: "emerald",
     home: "https://www.fastbull.cn",
     column: "finance",
@@ -294,8 +311,121 @@ export const originSources = {
       },
     },
   },
+  "hfpapers": {
+    name: "HF Papers",
+    color: "yellow",
+    column: "tech",
+    type: "hottest",
+    home: "https://huggingface.co/papers",
+    interval: Time.Slow,
+  },
+  "arxiv": {
+    name: "arXiv",
+    color: "red",
+    column: "tech",
+    home: "https://arxiv.org",
+    interval: Time.Slow,
+    sub: {
+      ai: { title: "cs.AI" },
+      lg: { title: "cs.LG" },
+      ro: { title: "Robotics" },
+      dc: { title: "Distributed" },
+    },
+  },
+  "lobsters": {
+    name: "Lobsters",
+    color: "red",
+    column: "tech",
+    home: "https://lobste.rs",
+    interval: Time.Common,
+  },
+  "phoronix": {
+    name: "Phoronix",
+    color: "blue",
+    column: "tech",
+    home: "https://www.phoronix.com",
+    interval: Time.Common,
+  },
+  "semianalysis": {
+    name: "SemiAnalysis",
+    color: "purple",
+    column: "tech",
+    home: "https://semianalysis.com",
+    interval: Time.Common,
+  },
+  "hfblog": {
+    name: "HF Blog",
+    color: "yellow",
+    column: "tech",
+    home: "https://huggingface.co/blog",
+    interval: Time.Common,
+  },
+  "cloudflare": {
+    name: "Cloudflare Blog",
+    color: "orange",
+    column: "tech",
+    home: "https://blog.cloudflare.com",
+    interval: Time.Common,
+  },
+  "kubernetes": {
+    name: "Kubernetes Blog",
+    color: "blue",
+    column: "tech",
+    home: "https://kubernetes.io/blog",
+    interval: Time.Common,
+  },
+  "thenewstack": {
+    name: "The New Stack",
+    color: "cyan",
+    column: "tech",
+    home: "https://thenewstack.io",
+    interval: Time.Common,
+  },
+  "cncf": {
+    name: "CNCF",
+    color: "sky",
+    column: "tech",
+    home: "https://www.cncf.io/blog",
+    interval: Time.Common,
+  },
+  "awsnew": {
+    name: "AWS What's New",
+    color: "amber",
+    column: "tech",
+    home: "https://aws.amazon.com/new",
+    interval: Time.Common,
+  },
+  "gcloud": {
+    name: "Google Cloud Blog",
+    color: "green",
+    column: "tech",
+    home: "https://cloud.google.com/blog",
+    interval: Time.Common,
+  },
+  "ieeerobotics": {
+    name: "IEEE Robotics",
+    color: "teal",
+    column: "tech",
+    home: "https://spectrum.ieee.org/topic/robotics",
+    interval: Time.Common,
+  },
+  "rosdiscourse": {
+    name: "ROS Discourse",
+    color: "indigo",
+    column: "tech",
+    home: "https://discourse.openrobotics.org",
+    interval: Time.Common,
+  },
+  "arstechnica": {
+    name: "Ars Technica",
+    color: "orange",
+    column: "tech",
+    home: "https://arstechnica.com",
+    interval: Time.Common,
+  },
   "bilibili": {
     name: "哔哩哔哩",
+    disable: true,
     color: "blue",
     home: "https://www.bilibili.com",
     sub: {
@@ -321,11 +451,11 @@ export const originSources = {
   },
   "kuaishou": {
     name: "快手",
+    disable: true,
     type: "hottest",
     column: "china",
     color: "orange",
     // cloudflare pages cannot access
-    disable: "cf",
     home: "https://www.kuaishou.com",
   },
   "kaopu": {
@@ -338,6 +468,7 @@ export const originSources = {
   },
   "jin10": {
     name: "金十数据",
+    disable: true,
     column: "finance",
     color: "blue",
     type: "realtime",
@@ -345,6 +476,7 @@ export const originSources = {
   },
   "baidu": {
     name: "百度热搜",
+    disable: true,
     column: "china",
     color: "blue",
     type: "hottest",
@@ -378,6 +510,7 @@ export const originSources = {
   },
   "smzdm": {
     name: "什么值得买",
+    disable: true,
     column: "china",
     color: "red",
     type: "hottest",
@@ -386,6 +519,7 @@ export const originSources = {
   },
   "nowcoder": {
     name: "牛客",
+    disable: true,
     column: "china",
     color: "blue",
     type: "hottest",
@@ -407,6 +541,7 @@ export const originSources = {
   },
   "ifeng": {
     name: "凤凰网",
+    disable: true,
     column: "china",
     color: "red",
     type: "hottest",
@@ -434,6 +569,7 @@ export const originSources = {
   },
   "douban": {
     name: "豆瓣",
+    disable: true,
     column: "china",
     title: "热门电影",
     color: "green",
@@ -450,6 +586,7 @@ export const originSources = {
   },
   "tencent": {
     name: "腾讯新闻",
+    disable: true,
     column: "china",
     color: "blue",
     home: "https://news.qq.com",
@@ -473,6 +610,7 @@ export const originSources = {
 
   "qqvideo": {
     name: "腾讯视频",
+    disable: true,
     column: "china",
     color: "blue",
     home: "https://v.qq.com/",
@@ -488,6 +626,7 @@ export const originSources = {
   },
   "iqiyi": {
     name: "爱奇艺",
+    disable: true,
     column: "china",
     color: "green",
     home: "https://www.iqiyi.com",
