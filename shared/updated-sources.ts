@@ -1,9 +1,11 @@
 export const updatedSourceIds = [
-  "arstechnica",
   "arxiv-ai",
   "arxiv-lg",
   "arxiv-ro",
   "arxiv-dc",
+  "arxiv-ar",
+  "arxiv-se",
+  "arstechnica",
   "cloudflare",
   "hfblog",
   "hfpapers",

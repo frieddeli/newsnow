@@ -68,7 +68,7 @@
   "hfpapers": {
     "name": "HF Papers",
     "type": "hottest",
-    "column": "tech",
+    "column": "ai",
     "home": "https://huggingface.co/papers",
     "color": "yellow",
     "interval": 3600000
@@ -76,7 +76,7 @@
   "arxiv": {
     "redirect": "arxiv-ai",
     "name": "arXiv",
-    "column": "tech",
+    "column": "ai",
     "home": "https://arxiv.org",
     "color": "red",
     "interval": 3600000,
@@ -84,7 +84,7 @@
   },
   "arxiv-ai": {
     "name": "arXiv",
-    "column": "tech",
+    "column": "ai",
     "home": "https://arxiv.org",
     "color": "red",
     "interval": 3600000,
@@ -92,7 +92,7 @@
   },
   "arxiv-lg": {
     "name": "arXiv",
-    "column": "tech",
+    "column": "ai",
     "home": "https://arxiv.org",
     "color": "red",
     "interval": 3600000,
@@ -100,7 +100,7 @@
   },
   "arxiv-ro": {
     "name": "arXiv",
-    "column": "tech",
+    "column": "ai",
     "home": "https://arxiv.org",
     "color": "red",
     "interval": 3600000,
@@ -108,11 +108,27 @@
   },
   "arxiv-dc": {
     "name": "arXiv",
-    "column": "tech",
+    "column": "ai",
     "home": "https://arxiv.org",
     "color": "red",
     "interval": 3600000,
     "title": "Distributed"
+  },
+  "arxiv-ar": {
+    "name": "arXiv",
+    "column": "ai",
+    "home": "https://arxiv.org",
+    "color": "red",
+    "interval": 3600000,
+    "title": "Hardware"
+  },
+  "arxiv-se": {
+    "name": "arXiv",
+    "column": "ai",
+    "home": "https://arxiv.org",
+    "color": "red",
+    "interval": 3600000,
+    "title": "SoftEng"
   },
   "lobsters": {
     "name": "Lobsters",
@@ -123,56 +139,56 @@
   },
   "phoronix": {
     "name": "Phoronix",
-    "column": "tech",
+    "column": "ai",
     "home": "https://www.phoronix.com",
     "color": "blue",
     "interval": 1800000
   },
   "semianalysis": {
     "name": "SemiAnalysis",
-    "column": "tech",
+    "column": "ai",
     "home": "https://semianalysis.com",
     "color": "purple",
     "interval": 1800000
   },
   "hfblog": {
     "name": "HF Blog",
-    "column": "tech",
+    "column": "ai",
     "home": "https://huggingface.co/blog",
     "color": "yellow",
     "interval": 1800000
   },
   "cloudflare": {
     "name": "Cloudflare Blog",
-    "column": "tech",
+    "column": "systems",
     "home": "https://blog.cloudflare.com",
     "color": "orange",
     "interval": 1800000
   },
   "kubernetes": {
     "name": "Kubernetes Blog",
-    "column": "tech",
+    "column": "systems",
     "home": "https://kubernetes.io/blog",
     "color": "blue",
     "interval": 1800000
   },
   "thenewstack": {
     "name": "The New Stack",
-    "column": "tech",
+    "column": "systems",
     "home": "https://thenewstack.io",
     "color": "cyan",
     "interval": 1800000
   },
   "ieeerobotics": {
     "name": "IEEE Robotics",
-    "column": "tech",
+    "column": "robotics",
     "home": "https://spectrum.ieee.org/topic/robotics",
     "color": "teal",
     "interval": 1800000
   },
   "rosdiscourse": {
     "name": "ROS Discourse",
-    "column": "tech",
+    "column": "robotics",
     "home": "https://discourse.openrobotics.org",
     "color": "indigo",
     "interval": 1800000
@@ -182,6 +198,168 @@
     "column": "tech",
     "home": "https://arstechnica.com",
     "color": "orange",
+    "interval": 1800000
+  },
+  "hnbest": {
+    "name": "HN Best",
+    "type": "hottest",
+    "column": "tech",
+    "home": "https://news.ycombinator.com/best",
+    "color": "orange",
+    "interval": 1800000
+  },
+  "simonw": {
+    "name": "Simon Willison",
+    "column": "ai",
+    "home": "https://simonwillison.net",
+    "color": "blue",
+    "interval": 1800000
+  },
+  "lilianweng": {
+    "name": "Lilian Weng",
+    "column": "ai",
+    "home": "https://lilianweng.github.io",
+    "color": "pink",
+    "interval": 3600000
+  },
+  "latentspace": {
+    "name": "Latent Space",
+    "column": "ai",
+    "home": "https://www.latent.space",
+    "color": "violet",
+    "interval": 1800000
+  },
+  "interconnects": {
+    "name": "Interconnects",
+    "column": "ai",
+    "home": "https://www.interconnects.ai",
+    "color": "indigo",
+    "interval": 1800000
+  },
+  "importai": {
+    "name": "Import AI",
+    "column": "ai",
+    "home": "https://importai.substack.com",
+    "color": "emerald",
+    "interval": 3600000
+  },
+  "chipsandcheese": {
+    "name": "Chips and Cheese",
+    "column": "ai",
+    "home": "https://chipsandcheese.com",
+    "color": "red",
+    "interval": 3600000
+  },
+  "brendangregg": {
+    "name": "Brendan Gregg",
+    "column": "systems",
+    "home": "https://www.brendangregg.com/blog",
+    "color": "slate",
+    "interval": 3600000
+  },
+  "danluu": {
+    "name": "Dan Luu",
+    "column": "systems",
+    "home": "https://danluu.com",
+    "color": "gray",
+    "interval": 3600000
+  },
+  "lwn": {
+    "name": "LWN",
+    "column": "systems",
+    "home": "https://lwn.net",
+    "color": "blue",
+    "interval": 1800000
+  },
+  "sreweekly": {
+    "name": "SRE Weekly",
+    "column": "systems",
+    "home": "https://sreweekly.com",
+    "color": "green",
+    "interval": 3600000
+  },
+  "pragmatic": {
+    "name": "Pragmatic Engineer",
+    "column": "systems",
+    "home": "https://newsletter.pragmaticengineer.com",
+    "color": "orange",
+    "interval": 3600000
+  },
+  "lastweekinaws": {
+    "name": "Last Week in AWS",
+    "column": "systems",
+    "home": "https://www.lastweekinaws.com",
+    "color": "amber",
+    "interval": 3600000
+  },
+  "netflix": {
+    "name": "Netflix Tech",
+    "column": "systems",
+    "home": "https://netflixtechblog.com",
+    "color": "red",
+    "interval": 3600000
+  },
+  "metaeng": {
+    "name": "Meta Engineering",
+    "column": "systems",
+    "home": "https://engineering.fb.com",
+    "color": "blue",
+    "interval": 3600000
+  },
+  "githubeng": {
+    "name": "GitHub Engineering",
+    "column": "systems",
+    "home": "https://github.blog/engineering",
+    "color": "zinc",
+    "interval": 3600000
+  },
+  "flyio": {
+    "name": "Fly.io",
+    "column": "systems",
+    "home": "https://fly.io/blog",
+    "color": "purple",
+    "interval": 3600000
+  },
+  "krebs": {
+    "name": "Krebs on Security",
+    "column": "systems",
+    "home": "https://krebsonsecurity.com",
+    "color": "rose",
+    "interval": 1800000
+  },
+  "projectzero": {
+    "name": "Project Zero",
+    "column": "systems",
+    "home": "https://googleprojectzero.blogspot.com",
+    "color": "lime",
+    "interval": 3600000
+  },
+  "cloudflarestatus": {
+    "name": "Cloudflare Status",
+    "column": "systems",
+    "home": "https://www.cloudflarestatus.com",
+    "color": "orange",
+    "interval": 300000
+  },
+  "githubstatus": {
+    "name": "GitHub Status",
+    "column": "systems",
+    "home": "https://www.githubstatus.com",
+    "color": "gray",
+    "interval": 300000
+  },
+  "robohub": {
+    "name": "Robohub",
+    "column": "robotics",
+    "home": "https://robohub.org",
+    "color": "teal",
+    "interval": 1800000
+  },
+  "hackaday": {
+    "name": "Hackaday",
+    "column": "robotics",
+    "home": "https://hackaday.com",
+    "color": "yellow",
     "interval": 1800000
   },
   "bilibili-hot-video": {
@@ -203,14 +381,5 @@
     "color": "blue",
     "interval": 1800000,
     "title": "排行榜"
-  },
-  "steam": {
-    "title": "在线人数",
-    "name": "Steam",
-    "type": "hottest",
-    "column": "world",
-    "home": "https://store.steampowered.com",
-    "color": "blue",
-    "interval": 600000
   }
 }

@@ -19,6 +19,15 @@ export const columns = {
   sports: {
     zh: "Sports",
   },
+  ai: {
+    zh: "AI",
+  },
+  systems: {
+    zh: "Systems",
+  },
+  robotics: {
+    zh: "Robotics",
+  },
   focus: {
     zh: "Focus",
   },
