@@ -14,7 +14,7 @@ export default defineSource(async () => {
     .filter(m => m.id)
     .map<NewsItem>(m => ({
       id: m.id,
-      title: m.id,
+      title: m.pipeline_tag ? `${m.id} [${m.pipeline_tag}]` : m.id,
       url: `https://huggingface.co/${m.id}`,
       extra: {
         info: `♥ ${m.likes ?? 0}`,
