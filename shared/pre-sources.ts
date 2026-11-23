@@ -576,6 +576,7 @@ export const originSources = {
   },
   "cloudflarestatus": {
     name: "Cloudflare Status",
+    disable: true,
     color: "orange",
     column: "systems",
     type: "realtime",
@@ -584,6 +585,7 @@ export const originSources = {
   },
   "githubstatus": {
     name: "GitHub Status",
+    disable: true,
     color: "gray",
     column: "systems",
     type: "realtime",

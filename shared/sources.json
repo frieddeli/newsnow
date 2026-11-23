@@ -331,22 +331,6 @@
     "color": "lime",
     "interval": 3600000
   },
-  "cloudflarestatus": {
-    "name": "Cloudflare Status",
-    "type": "realtime",
-    "column": "systems",
-    "home": "https://www.cloudflarestatus.com",
-    "color": "orange",
-    "interval": 300000
-  },
-  "githubstatus": {
-    "name": "GitHub Status",
-    "type": "realtime",
-    "column": "systems",
-    "home": "https://www.githubstatus.com",
-    "color": "gray",
-    "interval": 300000
-  },
   "robohub": {
     "name": "Robohub",
     "type": "realtime",
