@@ -363,6 +363,44 @@
     "color": "yellow",
     "interval": 1800000
   },
+  "hfmodels": {
+    "name": "HF Models",
+    "type": "hottest",
+    "column": "ai",
+    "home": "https://huggingface.co/models?sort=trending",
+    "color": "yellow",
+    "interval": 1800000
+  },
+  "hfspaces": {
+    "name": "HF Spaces",
+    "type": "hottest",
+    "column": "ai",
+    "home": "https://huggingface.co/spaces",
+    "color": "amber",
+    "interval": 1800000
+  },
+  "showhn": {
+    "name": "Show HN",
+    "type": "hottest",
+    "column": "tech",
+    "home": "https://news.ycombinator.com/show",
+    "color": "orange",
+    "interval": 1800000
+  },
+  "tldrai": {
+    "name": "TLDR AI",
+    "column": "ai",
+    "home": "https://tldr.tech/ai",
+    "color": "violet",
+    "interval": 3600000
+  },
+  "tldrdevops": {
+    "name": "TLDR DevOps",
+    "column": "systems",
+    "home": "https://tldr.tech/devops",
+    "color": "cyan",
+    "interval": 3600000
+  },
   "bilibili-hot-video": {
     "name": "哔哩哔哩",
     "type": "hottest",
