@@ -131,6 +131,7 @@
   },
   "phoronix": {
     "name": "Phoronix",
+    "type": "realtime",
     "column": "ai",
     "home": "https://www.phoronix.com",
     "color": "blue",
@@ -166,6 +167,7 @@
   },
   "thenewstack": {
     "name": "The New Stack",
+    "type": "realtime",
     "column": "systems",
     "home": "https://thenewstack.io",
     "color": "cyan",
@@ -187,6 +189,7 @@
   },
   "arstechnica": {
     "name": "Ars Technica",
+    "type": "realtime",
     "column": "tech",
     "home": "https://arstechnica.com",
     "color": "orange",
@@ -258,6 +261,7 @@
   },
   "lwn": {
     "name": "LWN",
+    "type": "realtime",
     "column": "systems",
     "home": "https://lwn.net",
     "color": "blue",
@@ -314,6 +318,7 @@
   },
   "krebs": {
     "name": "Krebs on Security",
+    "type": "realtime",
     "column": "systems",
     "home": "https://krebsonsecurity.com",
     "color": "rose",
@@ -328,6 +333,7 @@
   },
   "cloudflarestatus": {
     "name": "Cloudflare Status",
+    "type": "realtime",
     "column": "systems",
     "home": "https://www.cloudflarestatus.com",
     "color": "orange",
@@ -335,6 +341,7 @@
   },
   "githubstatus": {
     "name": "GitHub Status",
+    "type": "realtime",
     "column": "systems",
     "home": "https://www.githubstatus.com",
     "color": "gray",
@@ -342,6 +349,7 @@
   },
   "robohub": {
     "name": "Robohub",
+    "type": "realtime",
     "column": "robotics",
     "home": "https://robohub.org",
     "color": "teal",
@@ -349,6 +357,7 @@
   },
   "hackaday": {
     "name": "Hackaday",
+    "type": "realtime",
     "column": "robotics",
     "home": "https://hackaday.com",
     "color": "yellow",
