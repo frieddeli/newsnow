@@ -1,1 +1,1 @@
-export default defineRSSSource("https://discourse.openrobotics.org/latest.rss")
+export default defineRSSSource("https://discourse.openrobotics.org/top.rss?period=weekly")

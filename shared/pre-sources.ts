@@ -358,6 +358,7 @@ export const originSources = {
   },
   "semianalysis": {
     name: "SemiAnalysis",
+    disable: true,
     color: "purple",
     column: "ai",
     home: "https://semianalysis.com",

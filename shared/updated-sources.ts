@@ -1,4 +1,5 @@
 export const updatedSourceIds = [
+  "rosdiscourse",
   "hfmodels",
   "hfspaces",
   "showhn",
@@ -39,7 +40,5 @@ export const updatedSourceIds = [
   "kubernetes",
   "lobsters",
   "phoronix",
-  "rosdiscourse",
-  "semianalysis",
   "thenewstack",
 ] as const

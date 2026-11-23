@@ -137,13 +137,6 @@
     "color": "blue",
     "interval": 1800000
   },
-  "semianalysis": {
-    "name": "SemiAnalysis",
-    "column": "ai",
-    "home": "https://semianalysis.com",
-    "color": "purple",
-    "interval": 1800000
-  },
   "hfblog": {
     "name": "HF Blog",
     "column": "ai",
